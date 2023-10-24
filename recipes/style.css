@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("./img/bgm.jpg");
+    background-image: url("../img/bgm.jpg");
     background-size: cover;
     font-family: 'Rocher';
     text-align: center;
@@ -37,5 +37,36 @@ h1 {
 h3 {
     margin: 0;
 }
+@font-palette-values --Grays {
+    font-family: Rocher;
+    base-palette: 9;
+  }
 
-/* Add styles for ingredients and steps as needed */
+  .grays {
+    font-palette: --Grays;
+}
+
+.purples {
+    font-palette: --Purples;
+}
+
+.mint {
+    font-palette: --Mint;
+}
+
+/* Align content to the left, except the headings */
+.recipe-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Align content to the left */
+}
+  
+@font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+  }
+  
+@font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+  }
