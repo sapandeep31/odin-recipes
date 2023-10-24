@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+
+body {
+    background-image: url("./img/bgm.jpg");
+    background-size: cover;
+    
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+        font-size: 2.5em; /* You can adjust the font size as needed */
+        text-align: center;
+        text-transform: uppercase; /* This makes the text uppercase, optional */
+        color: #fff; /* Text color */
+        background-color: #333; /* Background color for the outline effect */
+        padding: 10px 20px; /* Padding to create the outline effect */
+        display: inline-block; /* Makes it center horizontally */
+        border: 3px solid #f00; /* Border color for the outline effect */
+        border-radius: 10px; /* Border radius for a rounded outline */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for a cool effect */
+      
+}
+
+h3 {
+    margin: 0;
+  }
+  
+  @font-palette-values --Grays {
+    font-family: Rocher;
+    base-palette: 9;
+  }
+  
+  @font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+  }
+  
+  @font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+  }
+  
+  .grays {
+    font-palette: --Grays;
+  }
+  
+  .purples {
+    font-palette: --Purples;
+  }
+  
+  .mint {
+    font-palette: --Mint;
+  }
+
+
